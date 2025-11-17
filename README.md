@@ -98,7 +98,8 @@ i
 
 )modm
 ```
-###🔹 Encrypt
+```
+### 🔹Encrypt
 
 Konversi pesan → biner ASCII
 
@@ -127,9 +128,9 @@ i
 
 b
 i
-	​
-
-🔹 Decrypt
+```	​
+```
+### 🔹 Decrypt
 
 Hitung invers modular:
 
@@ -147,8 +148,9 @@ n
 modm
 
 Kembalikan ciphertext → plaintext menggunakan teknik greedy pada deret privat w.
-
-🧪 Contoh Hasil Eksekusi
+```
+```
+## 🧪 Contoh Hasil Eksekusi
 
 Output terminal:
 
@@ -156,46 +158,48 @@ Output terminal:
 Pesan Asli       : HELLO WORLD
 Ciphertext       : [681, 945, 732, 580, 810, 913, 701, 621, 750, 830, 540, 967]
 Hasil Dekripsi   : HELLO WORLD
-
-
-Isi file:
-
-plaintext.txt
+```
+```
+### Isi file:
+```
+```
+### plaintext.txt
 
 HELLO WORLD
-
-
-ciphertext.txt
+```
+```
+### ciphertext.txt
 
 681 945 732 580 810 913 701 621 750 830 540 967
-
-
-decrypted_output.txt
+```
+```
+### decrypted_output.txt
 
 HELLO WORLD
-
-📸 Screenshot Antarmuka VS Code
+```
+```
+## 📸 Screenshot Antarmuka VS Code
 
 Struktur folder & hasil terminal ditampilkan pada makalah (Lampiran).
 Disertakan untuk menunjukkan eksekusi program secara langsung.
 
-🔗 Pranala Penting
+### 🔗 Pranala Penting
 📁 Repository GitHub
 
 ➡ https://github.com/aliffitrahramadhan/knapsack
 
-🎥 Video Demo Program
+### 🎥 Video Demo Program
 
 ➡ (Tambahkan tautan YouTube / Google Drive di sini)
 
-👨‍💻 Penulis
+### 👨‍💻 Penulis
 
 Alif Fitrah Ramadhan
 Program Studi Teknik Informatika
 Universitas Dipa Makassar
 2025
 
-📝 Lisensi
+### 📝 Lisensi
 
 Proyek ini dibuat untuk keperluan akademik dan pembelajaran konsep kriptografi.
 Tidak direkomendasikan untuk digunakan sebagai sistem keamanan produksi.
