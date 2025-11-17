@@ -26,8 +26,8 @@ KNAPSACK
 
 ```
 ## ⚙ Cara Menjalankan Program
-1️⃣ Persiapan
-
+### 1️⃣ Persiapan
+```
 Pastikan Python 3.x sudah terpasang pada perangkat Anda.
 
 Opsional: install module tambahan bila diperlukan
@@ -35,17 +35,15 @@ Opsional: install module tambahan bila diperlukan
 pip install -r requirements.txt
 
 ```
-```
-## 2️⃣ Menjalankan program
+### 2️⃣ Menjalankan program
 
 Buka terminal pada folder proyek:
-
+```
 python main.py
 
 ```
+#### Program akan:
 ```
-### Program akan:
-
 Membaca plaintext.txt
 
 Melakukan enkripsi menggunakan algoritma Merkle–Hellman Knapsack
@@ -58,148 +56,84 @@ Menampilkan hasil di terminal
 
 Menyimpan hasil dekripsi ke decrypted_output.txt
 ```
-```
 ## 🧠 Ringkasan Algoritma
 
 Merkle–Hellman Knapsack merupakan algoritma kriptografi kunci publik yang bekerja berdasarkan super-increasing knapsack dan subset sum problem.
-```
-```
-### Tahapan Utama
-🔹 Key Generation
 
+### Tahapan Utama
+#### 🔹 Key Generation
+```
 Tentukan deret super-increasing w
 
 Pilih modulus m dan multiplier n dengan syarat gcd(n, m) = 1
 
 Hitung kunci publik
 
-𝑏
-𝑖
-=
-(
-𝑛
-⋅
-𝑤
-𝑖
-)
-m
-o
-d
- 
- 
-𝑚
-b
-i
-	​
-
-=(n⋅w
-i
-	​
-
-)modm
+𝑏𝑖 =(𝑛⋅𝑤𝑖)mod 𝑚
 ```
-```
-### 🔹Encrypt
-
+#### 🔹Encrypt
+``
 Konversi pesan → biner ASCII
 
 Ciphertext dihitung dengan:
 
-𝐶
-=
-∑
-𝑖
-=
-1
-𝑛
-𝛼
-𝑖
-𝑏
-𝑖
-C=
-i=1
-∑
-n
-	​
-
-α
-i
-	​
-
-b
-i
+𝐶 = ∑𝑖 =n1𝑛𝛼𝑖𝑏𝑖
 ```	​
 ```
-### 🔹 Decrypt
+#### 🔹 Decrypt
 
 Hitung invers modular:
-
-𝑛
-−
-1
-m
-o
-d
- 
- 
-𝑚
-n
-−1
-modm
-
+```
+𝑛−1nmod 𝑚
+```
 Kembalikan ciphertext → plaintext menggunakan teknik greedy pada deret privat w.
-```
-```
+
 ## 🧪 Contoh Hasil Eksekusi
 
 Output terminal:
-
+```
 === HASIL PROSES KNAPSACK ===
 Pesan Asli       : HELLO WORLD
 Ciphertext       : [681, 945, 732, 580, 810, 913, 701, 621, 750, 830, 540, 967]
 Hasil Dekripsi   : HELLO WORLD
 ```
+Isi file:
+#### plaintext.txt
 ```
-### Isi file:
-```
-```
-### plaintext.txt
-
 HELLO WORLD
 ```
+#### ciphertext.txt
 ```
-### ciphertext.txt
-
 681 945 732 580 810 913 701 621 750 830 540 967
 ```
-```
-### decrypted_output.txt
 
-HELLO WORLD
+### decrypted_output.txt
 ```
+HELLO WORLD
 ```
 ## 📸 Screenshot Antarmuka VS Code
 
 Struktur folder & hasil terminal ditampilkan pada makalah (Lampiran).
 Disertakan untuk menunjukkan eksekusi program secara langsung.
+➡ https://drive.google.com/drive/folders/1YKcCDd_qAtJGVGqZ8sXfEaeByekgjI7t?usp=drive_link
 
 ### 🔗 Pranala Penting
-📁 Repository GitHub
+#### 📁 Repository GitHub
 
 ➡ https://github.com/aliffitrahramadhan/knapsack
 
-### 🎥 Video Demo Program
+#### 🎥 Video Demo Program
 
-➡ (Tambahkan tautan YouTube / Google Drive di sini)
+➡ https://drive.google.com/file/d/1CrTVtJpvWvhnAtX5lpK6S6tzHYYnnnz1/view?usp=drive_link
 
-### 👨‍💻 Penulis
+## 👨‍💻 Penulis
 
 Alif Fitrah Ramadhan
 Program Studi Teknik Informatika
 Universitas Dipa Makassar
 2025
 
-### 📝 Lisensi
+## 📝 Lisensi
 
 Proyek ini dibuat untuk keperluan akademik dan pembelajaran konsep kriptografi.
 Tidak direkomendasikan untuk digunakan sebagai sistem keamanan produksi.
