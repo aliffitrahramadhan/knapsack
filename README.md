@@ -107,7 +107,7 @@ HELLO WORLD
 681 945 732 580 810 913 701 621 750 830 540 967
 ```
 
-### decrypted_output.txt
+#### decrypted_output.txt
 ```
 HELLO WORLD
 ```
@@ -115,7 +115,7 @@ HELLO WORLD
 
 Struktur folder & hasil terminal ditampilkan pada makalah (Lampiran).
 Disertakan untuk menunjukkan eksekusi program secara langsung.
-➡ https://drive.google.com/drive/folders/1YKcCDd_qAtJGVGqZ8sXfEaeByekgjI7t?usp=drive_link
+ https://drive.google.com/drive/folders/1YKcCDd_qAtJGVGqZ8sXfEaeByekgjI7t?usp=drive_link
 
 ### 🔗 Pranala Penting
 #### 📁 Repository GitHub
